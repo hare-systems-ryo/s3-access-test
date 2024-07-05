@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------------------
 
 export default defineEventHandler(async (event) => {
-  return String(process.env.APP_LOCATION);
+  return String(process.env.VERCEL_REGION);
 });
